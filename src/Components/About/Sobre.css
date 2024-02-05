@@ -24,7 +24,7 @@
   background: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.836);
   border: solid 8px rgb(253, 247, 247);
-  gap: 5rem;
+  gap: 2rem;
   padding: 4rem 2rem;
   border-radius: 10px;
 }
@@ -94,7 +94,7 @@
   }
   .container-icon {
     gap: 0.5rem !important;
-    padding-top: 2rem !important ;
+    padding-top: 0 !important ;
   }
   .container-icon .card-icon {
     font-size: 1.1rem !important;
