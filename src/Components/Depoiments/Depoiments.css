@@ -1,0 +1,103 @@
+.depoiments-container {
+  display: flex;
+  justify-content: center;
+  padding: 5rem;
+  background: linear-gradient(to bottom right, #000000, #490f0f, #690303);
+  border-top: 1px solid transparent;
+  border-image: linear-gradient(to bottom right, #520d0d, #c91515, #690303);
+  border-image-slice: 1;
+}
+.carousel-depoiments {
+  width: 50% !important;
+}
+.card-depoiments {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.836);
+  gap: 1rem;
+}
+.card-depoiments .perfil {
+  width: 10rem !important;
+  height: 10rem;
+  border: solid 5px #3a0202 !important;
+  box-shadow: 0 0 10px rgba(58, 2, 2, 0.836);
+  border-radius: 100%;
+  transition: 0.5s ease;
+  filter: grayscale(80%);
+}
+.card-depoiments:hover .perfil {
+  border: solid 5px #c91515 !important;
+  box-shadow: 0 0 20px rgba(247, 5, 5, 0.8);
+  filter: grayscale(0%);
+}
+.depoiments-texts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.depoiments-texts h2 span {
+  color: #b10e0e;
+  font-family: 'Changa', sans-serif;
+  font-size: 1.8rem;
+}
+.depoiments-texts h2 {
+  font-family: 'Changa', sans-serif;
+  font-size: 1.7rem;
+}
+.depoiments-texts p {
+  font-family: 'Arimo', sans-serif;
+  text-align: center;
+  width: 60%;
+}
+.stars-icon {
+  width: 15rem !important;
+  filter: grayscale(30%);
+  transition: 0.5s ease;
+}
+.depoiments-texts:hover .stars-icon {
+  filter: grayscale(0%);
+}
+@media only screen and (max-width: 767px) {
+  .depoiments-container {
+    padding: 5rem 3rem;
+  }
+  .carousel-depoiments {
+    width: 90% !important;
+  }
+  .card-depoiments {
+    padding: 1rem 0.5rem;
+    gap: 1rem;
+  }
+  .card-depoiments .perfil {
+    width: 7rem !important;
+    height: 7rem;
+    border: solid 5px #860707 !important;
+    box-shadow: 0 0 20px rgba(192, 8, 8, 0.8);
+    filter: grayscale(0%);
+  }
+  .depoiments-texts {
+    gap: 0.5rem;
+  }
+  .depoiments-texts h2 span {
+    font-size: 1.3rem;
+  }
+  .depoiments-texts h2 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .depoiments-texts p {
+    width: 100%;
+    font-size: 0.9rem;
+  }
+  .stars-icon {
+    width: 10rem !important;
+    filter: grayscale(0%);
+  }
+}

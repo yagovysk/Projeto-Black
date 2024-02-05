@@ -1,0 +1,102 @@
+.container-sobre {
+  display: flex;
+  justify-content: center;
+  padding-left: 15rem;
+  background: linear-gradient(to bottom right, #000000, #490f0f, #690303);
+  border-bottom: 1px solid transparent;
+  border-image: linear-gradient(to bottom right, #000000, #ffd700, #080000);
+  border-image-slice: 1;
+}
+.container-article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 5rem;
+}
+.container-card {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 8rem;
+  z-index: 1;
+  height: 50%;
+  width: 36%;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.836);
+  border: solid 8px rgb(253, 247, 247);
+  gap: 5rem;
+  padding: 4rem 2rem;
+  border-radius: 10px;
+}
+.container-card h2 {
+  text-align: center;
+  font-family: 'Changa', sans-serif;
+  font-weight: 600;
+  color: rgb(54, 2, 2);
+  font-size: 2.5rem;
+}
+.container-card p {
+  text-align: center;
+  line-height: 1.9rem;
+  letter-spacing: 0.2rem;
+  font-size: 1.3rem;
+  font-family: 'Oswald', sans-serif;
+}
+.container-sobre-img {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.container-sobre-img img {
+  height: 60%;
+  border: 10px;
+  border-radius: 10px;
+}
+.container-icon {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 12rem;
+  gap: 0.5rem;
+}
+.container-icon .card-icon {
+  font-size: 1.5rem !important;
+  transition: 0.5s ease;
+  color: #4b0404;
+}
+.container-icon .card-icon:hover {
+  transform: translateY(-5px);
+  color: #be0f0f;
+}
+@media only screen and (max-width: 767px) {
+  .container-sobre {
+    padding-left: 14rem !important;
+  }
+  .container-card {
+    gap: 2rem !important;
+    padding: 2rem;
+    width: 40%;
+    height: 35%;
+    left: 2rem;
+  }
+  .container-card h2 {
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+  }
+  .container-card p {
+    font-size: 0.8rem;
+    line-height: 1rem;
+    letter-spacing: 0;
+  }
+  .container-sobre-img img {
+    height: 30%;
+  }
+  .container-icon {
+    gap: 0.5rem !important;
+    padding-top: 2rem !important ;
+  }
+  .container-icon .card-icon {
+    font-size: 1.1rem !important;
+  }
+}

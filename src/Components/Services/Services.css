@@ -1,0 +1,99 @@
+.container-services {
+  display: flex;
+  justify-content: center;
+  padding: 6rem 5rem;
+  background: #690303;
+}
+.container-carousel {
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.473);
+  border-radius: 15px;
+  background: linear-gradient(to bottom right, #000000, #ffd700, #690303);
+}
+.container-img {
+  padding: 1rem 0;
+  width: 110%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.service-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 7rem;
+}
+.service-card .img {
+  width: 90% !important;
+  height: 36rem;
+  border-radius: 100%;
+  transition: 0.3s ease;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.836);
+  border: solid 8px rgb(253, 247, 247);
+}
+.service-card .img-2 {
+  width: 90% !important;
+  height: 36rem;
+  border-radius: 100%;
+  transition: 0.3s ease;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.836);
+  border: solid 8px rgb(253, 247, 247);
+}
+.container-img:hover .img {
+  transform: scale(1.02);
+}
+.container-img:hover .img-2 {
+  transform: scale(1.02);
+}
+.services-texts {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+.services-texts h2 {
+  font-family: 'Changa', sans-serif;
+  font-size: 2.5rem;
+  color: #fff;
+}
+.services-texts p {
+  width: 70%;
+  font-family: 'Poltawski Nowy', serif;
+  font-size: 1.3rem;
+  color: #fff;
+}
+@media only screen and (max-width: 767px) {
+  .container-services {
+    padding: 8rem 2rem;
+    margin-top: -4rem;
+    border-top: 1px solid transparent;
+    border-image: linear-gradient(to bottom right, #000000, #ffd700, #080000);
+    border-image-slice: 1;
+    flex-direction: column;
+  }
+  .container-img {
+    width: auto !important;
+  }
+  .service-card {
+    flex-direction: column;
+    padding: 3rem 1rem;
+  }
+  .service-card .img {
+    width: 60%;
+    height: 10rem;
+  }
+  .service-card .img-2 {
+    width: 80% !important;
+    height: 10rem;
+  }
+  .services-texts {
+    gap: 0.2rem !important;
+  }
+  .services-texts h2 {
+    font-size: 1.3rem;
+  }
+  .services-texts p {
+    font-size: 0.9rem;
+    width: 100%;
+  }
+}
