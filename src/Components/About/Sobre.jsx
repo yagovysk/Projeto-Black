@@ -10,16 +10,21 @@ export function Sobre() {
         <article className="container-card">
           <h2>Um pouco sobre mim</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam,
-            facere veniam, quia suscipit non porro fugit repellat pariatur
-            exercitationem, accusamus nobis quod laudantium autem rem dolor quae
-            quas aperiam maiores.
+            Meu nome é Antônio Sousa, 37 anos, conhecido como Treinador Sousa
+            Black. Pós-Graduado em Gerontologia, foco em treinos adaptados para
+            idosos. Leciono Aula de Boxe, para iniciantes e competidores. Busco
+            promover bem-estar e superação em cada treino. Comprometido com a
+            saúde e condicionamento dos meus alunos.
           </p>
           <div className="container-icon">
-            <a href="" target="blank">
+            <a
+              href="https://wa.me/556199725414?text=Olá, vim pelo site, gostaria de saber os planos Sousa Black."
+              target="blank">
               <FaSquareWhatsapp className="card-icon" />
             </a>
-            <a href="" target="blank">
+            <a
+              href="https://www.instagram.com/sousablackoficial/"
+              target="blank">
               <FaInstagramSquare className="card-icon" />
             </a>
           </div>
@@ -31,3 +36,4 @@ export function Sobre() {
     </section>
   );
 }
+
