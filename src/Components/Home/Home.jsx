@@ -19,7 +19,7 @@ export function Home() {
           <a
             aria-label="Botão para contato com o professor Black para agendamento de aula experimental grátis."
             className="contact-button"
-            href="#"
+            href="https://wa.me/556199725414?text=Olá, vim pelo site, gostaria de marcar uma aula experimental grátis."
             target="blank">
             Aula Experimental grátis.
           </a>
