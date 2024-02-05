@@ -10,11 +10,12 @@ export function Sobre() {
         <article className="container-card">
           <h2>Um pouco sobre mim</h2>
           <p>
-            Meu nome é Antônio Sousa, 37 anos, conhecido como Treinador Sousa
-            Black. Pós-Graduado em Gerontologia, foco em treinos adaptados para
-            idosos. Leciono Aula de Boxe, para iniciantes e competidores. Busco
-            promover bem-estar e superação em cada treino. Comprometido com a
-            saúde e condicionamento dos meus alunos.
+              Meu nome é Antônio Sousa, tenho 37 anos, conhecido como
+              Treinador Sousa Black. Pós-Graduado em Gerontologia, foco em
+              treinos adaptados para idosos, obesidade, ganho de massa, perda
+              de peso. Leciono Aula de Boxe, para iniciantes e competidores.
+              Busco promover bem-estar e superação em cada treino.
+              Comprometido com a saúde e condicionamento dos meus alunos.
           </p>
           <div className="container-icon">
             <a
