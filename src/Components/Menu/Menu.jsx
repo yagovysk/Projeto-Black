@@ -51,7 +51,7 @@ export function Menu() {
           aria-label="item clicável, rolagem para a página Home."
           className="item-list"
           onClick={() => scrollToSection('home')}>
-          Início
+          Home
         </li>
         <li
           aria-label="item clicável, rolagem para a página Sobre Mim."

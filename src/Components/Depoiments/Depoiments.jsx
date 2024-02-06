@@ -37,6 +37,7 @@ export function Depoiments() {
   );
   return (
     <section id="depoiments" className="depoiments-container">
+      <h3>Depoimentos</h3>
       <Carousel
         className="carousel-depoiments"
         showArrows={true}

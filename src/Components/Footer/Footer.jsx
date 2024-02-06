@@ -18,7 +18,7 @@ export function Footer() {
           <li
             aria-label="item clicável do menu de navegação do rodapé da página, rolagem para a página inicial."
             onClick={() => handleScrollToSection('home')}>
-            Início
+            Home
           </li>
           <li
             aria-label="item clicável do menu de navegação do rodapé da página, rolagem para a página Sobre Mim."

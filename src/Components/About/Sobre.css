@@ -19,7 +19,7 @@
   position: absolute;
   left: 8rem;
   z-index: 1;
-  height: 50%;
+  height: 40rem;
   width: 36%;
   background: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.836);
@@ -27,19 +27,30 @@
   gap: 2rem;
   padding: 4rem 3rem;
   border-radius: 10px;
+
+  opacity: 0; /* Inicia com opacidade zero para a animação */
+  transform: translateX(
+    20px
+  ); /* Move o elemento 20 pixels para a direita para a animação */
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+.container-card.animated {
+  opacity: 1;
+  transform: translateX(0);
 }
 .container-card h2 {
   text-align: center;
   font-family: 'Changa', sans-serif;
   font-weight: 600;
   color: rgb(54, 2, 2);
-  font-size: 2.2rem;
+  font-size: 2.5rem;
 }
 .container-card p {
   text-align: center;
-  line-height: 1.9rem;
+  line-height: 1.6rem;
   letter-spacing: 0.2rem;
-  font-size: 1.1rem;
+  font-size: 1rem;
+
   font-family: 'Oswald', sans-serif;
 }
 .container-sobre-img {
@@ -53,11 +64,20 @@
   height: 60%;
   border: 10px;
   border-radius: 10px;
+
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+.container-sobre-img img.animated {
+  opacity: 1;
+  transform: translateY(0);
 }
 .container-icon {
   display: flex;
+  align-items: flex-end;
   justify-content: flex-end;
- padding-bottom: 3rem;
+  padding: 4rem 0;
   gap: 0.5rem;
 }
 .container-icon .card-icon {
@@ -74,7 +94,7 @@
     padding-left: 14rem !important;
   }
   .container-card {
-    gap: 2rem !important;
+    gap: 1rem !important;
     padding: 2rem;
     width: 40%;
     height: 35%;
@@ -85,7 +105,7 @@
     line-height: 1.4rem;
   }
   .container-card p {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     line-height: 1rem;
     letter-spacing: 0;
   }
@@ -94,7 +114,7 @@
   }
   .container-icon {
     gap: 0.5rem !important;
-    padding-top: 0 !important ;
+    padding: 0;
   }
   .container-icon .card-icon {
     font-size: 1.1rem !important;
