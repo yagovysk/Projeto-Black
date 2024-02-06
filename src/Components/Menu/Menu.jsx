@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useEffect, useState } from 'react';
 import logo from '../../assets/logo-black.png';
 import { AiOutlineClose } from 'react-icons/ai';
 import text from '../../assets/logo-text.png';
@@ -6,6 +6,21 @@ import './Menu.css';
 
 export function Menu() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -30,7 +45,9 @@ export function Menu() {
         <img src={logo} alt="logo Souza Black" />{' '}
         <img className="logo-text" src={text} alt="logo em texto" />
       </div>
-      <div className="menu-toggle" onClick={toggleMenu}>
+      <div
+        className={`menu-toggle ${isScrolled ? 'hidden' : ''}`}
+        onClick={toggleMenu}>
         {isMenuOpen ? (
           <AiOutlineClose
             aria-label="botão que fecha o menu de navegação em tela para celulares e tablets."

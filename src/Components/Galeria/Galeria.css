@@ -26,7 +26,7 @@
   height: 30rem;
   border-radius: 10px;
   transition: 0.3s ease;
-  border: solid 3px rgb(250, 234, 5);
+  border: solid 3px rgb(0, 0, 0);
   filter: grayscale(60%);
   cursor: zoom-in;
 }

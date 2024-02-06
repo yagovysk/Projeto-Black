@@ -35,6 +35,7 @@ export function Services() {
   );
   return (
     <section id="servicos" className="container-services">
+      <h3>Serviços</h3>
       <Carousel
         className="container-carousel"
         showArrows={true}
