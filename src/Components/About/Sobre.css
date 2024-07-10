@@ -4,7 +4,7 @@
   padding-left: 15rem;
   background: linear-gradient(to bottom right, #000000, #490f0f, #690303);
   border-bottom: 1px solid transparent;
-  border-image: linear-gradient(to bottom right, #000000, #ffd700, #080000);
+  border-image: linear-gradient(to bottom right, #000000, #ffffff, #080000);
   border-image-slice: 1;
 }
 .container-article {
@@ -40,7 +40,7 @@
 }
 .container-card h2 {
   text-align: center;
-  font-family: 'Changa', sans-serif;
+  font-family: "Changa", sans-serif;
   font-weight: 600;
   color: rgb(54, 2, 2);
   font-size: 2.5rem;
@@ -51,7 +51,7 @@
   letter-spacing: 0.2rem;
   font-size: 1rem;
 
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 .container-sobre-img {
   position: relative;
