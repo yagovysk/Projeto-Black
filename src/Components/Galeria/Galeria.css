@@ -11,9 +11,9 @@
   border-image-slice: 1;
 }
 .container-galeria h2 {
-  font-family: 'Changa', sans-serif;
+  font-family: "Changa", sans-serif;
   font-size: 2rem;
-  color: #c8d416;
+  color: #f8f8f3;
 }
 .container-photos {
   display: grid;

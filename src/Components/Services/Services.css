@@ -8,8 +8,8 @@
   background: #690303;
 }
 .container-services h3 {
-  color: #fff;
-  font-family: 'changa', sans-serif;
+  color: #fefdfd;
+  font-family: "changa", sans-serif;
   font-size: 2rem;
   text-align: center;
 }
@@ -18,7 +18,7 @@
   width: 90%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.473);
   border-radius: 15px;
-  background: linear-gradient(to bottom right, #000000, #ffd700, #690303);
+  background: linear-gradient(to bottom right, #000000, #fffefb, #080808);
 }
 .container-img {
   padding: 1rem 0;
@@ -37,28 +37,24 @@
 .service-card .img {
   width: 100% !important;
   height: 23rem;
-  border-radius: 10px;
+  border-radius: 15px;
   transition: 0.3s ease;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.836);
   border: solid 8px rgb(253, 247, 247);
-  filter: grayscale(50%);
 }
 .service-card .img-2 {
   width: 100% !important;
   height: 23rem;
-  border-radius: 10px;
+  border-radius: 15px;
   transition: 0.3s ease;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.836);
   border: solid 8px rgb(253, 252, 247);
-  filter: grayscale(50%);
 }
 .container-img:hover .img {
   transform: scale(1.05);
-  filter: grayscale(0%);
 }
 .container-img:hover .img-2 {
   transform: scale(1.05);
-  filter: grayscale(0%);
 }
 .services-texts {
   display: flex;
@@ -67,16 +63,16 @@
   align-items: center;
 }
 .services-texts h2 {
-  font-family: 'Changa', sans-serif;
+  font-family: "Changa", sans-serif;
   font-size: 2.5rem;
-  color: #fff;
+  color: #050505;
 }
 .services-texts p {
-  width: 70%;
-  font-family: 'Poltawski Nowy', serif;
+  width: 90%;
+  font-family: "Changa", sans-serif;
   font-size: 1.3rem;
   color: #000000;
-  text-align: left;
+  text-align: center;
 }
 @media only screen and (max-width: 767px) {
   .container-services {
