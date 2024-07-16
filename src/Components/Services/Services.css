@@ -79,7 +79,7 @@
     padding: 8rem 2rem;
     margin-top: -4rem;
     border-top: 1px solid transparent;
-    border-image: linear-gradient(to bottom right, #000000, #ffd700, #080000);
+    border-image: linear-gradient(to bottom right, #000000, #fefefc, #080000);
     border-image-slice: 1;
     flex-direction: column;
   }
